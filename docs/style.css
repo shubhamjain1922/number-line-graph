@@ -1,0 +1,179 @@
+body {
+	background-color: #eefcd2;
+}
+
+
+/* content-box */
+.content {
+	margin-top: 90px;
+}
+
+
+/* upper gradient */
+.gradient-cont {
+	height: 40px;
+	background-image: linear-gradient(to right top, #f93b95, #f027a6, #e21aba, #cb1dd0, #aa2ce6);
+	border: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+
+/* graph area */
+.main-cont {
+	background-color: #4b0082;
+	border: 1.5px solid black;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+
+/* input */
+.input{
+  margin-top: 90px;
+  padding: 10px; 
+  color: #4b0082;
+  font-family: vollkorn, serif;
+}
+
+input {
+	width: 70px;
+	text-align: center;
+}
+
+select {
+	padding: 3px;
+}
+
+h5 {
+	text-align: center;
+	font-weight: 600;
+}
+
+
+/* line */
+.line {
+	width: 80%;
+	height: 2px;
+	background-color: #ff00ff;
+}
+
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  
+  border-left: 10px solid #ff00ff;
+}
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  
+  border-right:10px solid #ff00ff; 
+}
+
+
+/* points-marking */
+.point {
+	border: 0;
+	width: 2px;
+	height: 14px;
+	background-color: #00ff00;
+	position: absolute;
+	top: 93px;
+	z-index: 1;
+}
+
+
+/* numbers */
+.numb {
+	border: 0;
+	color: #00ff00;
+	position: absolute;
+	top: 110px;
+}
+
+.select-bold {
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+
+/* arrow in forward direction */
+.curve {
+	z-index: 2;
+	width: 7.4%;
+	height: 50px;
+	border-radius: 50% 50% 0 0;
+	border: 3px solid #ff0000;
+	border-bottom-color: transparent; 
+	position: absolute;
+	top: 50px;
+	opacity: 0;
+}
+
+.arrow-down {
+  width: 10; 
+  height: 10; 
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent; 
+  
+  border-top:10px solid #ff0000; 
+  position: absolute;
+  bottom: -4px;
+  right: -12px;
+}
+
+
+/* arrow in reverse direction */
+.curve2 {
+	z-index: 2;
+	width: 7.4%;
+	height: 50px;
+	border-radius: 50% 50% 0 0;
+	border: 3px solid #ff0000;
+	border-bottom-color: transparent; 
+	position: absolute;
+	top: 50px;
+	opacity: 0;
+}
+
+.arrow-down2 {
+  width: 10; 
+  height: 10; 
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent; 
+  
+  border-top:10px solid #ff0000; 
+  position: absolute;
+  bottom: -4px;
+  left: -12px;
+}
+
+
+/* lower gradient */
+.gradient-cont2 {
+	height: 40px;
+	background-image: linear-gradient(to left bottom, #f93b95, #f027a6, #e21aba, #cb1dd0, #aa2ce6);
+	border: 0;
+	border-radius: 0 0 5px 5px;
+}
+
+
+/* selected point */
+.selected-point {
+	margin-left: -8px;
+	width: 20px;
+	height: 20px;
+	background-color: #ff0000;
+	border-radius: 50%;
+	border: 3px solid #00ff00;
+    top: 90px;
+}
